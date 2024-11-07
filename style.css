@@ -85,6 +85,8 @@ p {
   background-color: var(--primary-color);
   color: var(--secondary-color);
   border: none;
+  display: block;
+  margin: 0 auto;
 }
 .button:hover {
   color: blue;
@@ -101,10 +103,6 @@ p {
   background-color: white;
   color: blue;
   border-color: var(--primary-color);
-}
-
-.display-row {
-  display: inline block;
 }
 
 .contact-header {
@@ -131,5 +129,12 @@ p {
   }
   .button {
     font-size: 16px;
+  }
+  .button-app {
+    font-size: 16px;
+    color: black;
+    width: 350px;
+    display: block;
+    margin: 0 auto;
   }
 }
