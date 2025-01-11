@@ -81,16 +81,17 @@ p {
   text-align: start;
 }
 
-.button {
+.contact-link {
   background-color: var(--primary-color);
   color: var(--secondary-color);
   border: none;
   display: block;
   margin: 0 auto;
 }
-.button:hover {
-  color: blue;
-  background-color: var(--primary-color);
+.contact-link:hover {
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  border: 1px solid var(--primary-color);
 }
 
 .about-link {
@@ -100,8 +101,8 @@ p {
 }
 
 .about-link:hover {
-  background-color: white;
-  color: blue;
+  background-color: var(--primary-color);
+  color: white;
   border-color: var(--primary-color);
 }
 
@@ -137,4 +138,22 @@ p {
     display: block;
     margin: 0 auto;
   }
+}
+.project {
+  text-decoration: none;
+  color: #6c62fb;
+  font-size: 18px;
+  border: 1px solid #6c62fb;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.project:hover {
+  color: white;
+  background-color: #6c62fb;
+}
+.icon {
+  display: block;
+  margin: 0 auto;
+  margin-top: -50px;
 }
